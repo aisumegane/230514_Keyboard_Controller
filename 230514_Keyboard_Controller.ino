@@ -76,17 +76,11 @@ void loop() {
   // use the pushbuttons to control the keyboard:
   //
   /*
-  if (digitalRead(upButton) == HIGH) {
-    Keyboard.press('w');
-  }
+
   if (digitalRead(upButton) == LOW){
     Keyboard.release('w');
   }
   */
-
-  
-
-  
   
   static int count_now = 0;
   static int count_now_2 = 0;
